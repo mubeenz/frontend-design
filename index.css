@@ -1,0 +1,235 @@
+.bg-img {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(images/goggel.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar-toggler-icon {
+    background-color: crimson;
+    border-radius: 50%;
+    border-style: none;
+}
+.navbar-toggler-icon #show {
+    color: white;
+    font-size: 11px;
+}
+.navbar-brand {
+    color: white;
+    padding-left: 30px;
+}
+.navbar-brand:hover {
+    color: orangered;
+}
+.navbar-nav {
+    padding-left: 300px;
+}
+.nav-item {
+    padding-left: 100px;
+}
+.nav-link {
+    color: white;
+    padding-top: 20px;
+}
+.nav-link:hover {
+    color: orangered;
+}
+.btn-one {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: thistle;
+}
+.btn-one:hover {
+    background-color: tomato;
+    border-style: none;
+    transition: 0.4s ease-in;
+    color: white;
+}
+
+/* animate */
+
+.about {
+    animation-name: opacity;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* responsive code media query for navbar */
+
+@media screen and (max-width: 1182px) {
+    .navbar-nav {
+        padding-left: 200px;
+    }
+    .nav-item {
+        padding-left: 60px;
+    }
+}
+
+/* bg-img content */
+
+.my-con-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-con-one h1 {
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.my-con-one h4 {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.my-con-one p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* 2nd section */
+
+#img-one {
+    width: 200px;
+    height: 200px;
+}
+.my-col-one {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.my-col-one {
+    text-align: center;
+}
+.my-col-one #heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+}
+.btn-two {
+    width: 125px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: thistle;
+    border-style: none;
+}
+.btn-two:hover {
+    background-color: tomato;
+    border-style: none;
+    transition: 0.4s ease-in;
+    color: white;
+}
+
+/* 3rd section */
+
+#img-two {
+    width: 550px;
+    height: 480px;
+    margin-top: 180px;
+}
+
+.my-col-two {
+    padding-top: 170px;
+}
+.my-col-two h4 {
+    padding-top: 20px;
+}
+.my-col-two p {
+    padding-top: 20px;
+}
+
+/* 4th section */
+
+.name h6 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 25px;
+}
+.name h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.my-col-three ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-col-three ul li{
+    list-style-type: none;
+    padding: 30px;
+}
+.my-col-three ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+#img-2 {
+    width: 240px;
+    height: 200px;
+}
+
+/* 5th section */
+
+.my-col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.my-col-4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+.my-col-4 h6 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.my-col-4 h5 {
+    padding-top: 20px;
+    color: gray;
+}
+
+/* footer */
+
+footer {
+    margin-top: 80px;
+    background-color: orangered;
+    height: 100px;
+}
+
+footer h4 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
